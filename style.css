@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 243, 247);
+    color: rgb(7, 4, 4);
+    font-family: 'Thasadith', sans-serif;
+}
+
+.defaultHeader {
+    background-color: rgb(85, 187, 207);
+    font: bold 20px 'Thasadith';
+    text-align: center;
+    line-height: 2.5em;
+
+    height: 50px;
+}
+
+#mainQuestion{
+    font-size: 30px;
+    text-align: center;
+}
+
+#generalText {
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.insertSubject{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[name=inputSubject] {
+    height: 15px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+    font: normal 15px 'Thasadith'; 
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+#submitForm {
+
+    background: rgb(245, 179, 79);
+    width: 158px;
+    height: 20px;
+    text-align: center;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+    font: normal;
+}
+
+
+
+#subjectsContainer {
+    background: rgb(159, 215, 226);
+    display: flex;
+    margin: 2%;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: flex-start;
+
+    overflow-x: scroll;
+
+    
+}
+
+#studiedSubjects {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+
+    
+
+    width: 100%;
+
+    flex-direction: row-reverse;
+}
+
+.oldSubject {
+    background-color: rgb(245, 179, 79);
+    border-radius: 5px;
+
+    display: inline-block;
+    text-align: center;
+    
+
+    min-width: 150px;
+    margin: 15px;
+}
+
+
