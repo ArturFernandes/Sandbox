@@ -4,34 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandbox :D</title>
-    <link rel="stylesheet" href="style.css"></link>
+    <title>Sandbox!</title>
+    <link rel="stylesheet" href="sandbox.css"></link>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&family=Mukta:wght@200;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="defaultHeader">Artur's Sandbox</header>
     
-    <h1 id="mainQuestion">What subject have you studied today?</h1>
+    <h1 id="chooseApp">Choose an aplication :D</h1>
 
-    <form id="subjectForm" class="insertSubject">
-        <p id="generalText">Enter the name of the subject</p>
-    
-        <input placeholder="Digita aí" name="inputSubject"></input>
-        
-        <button id="submitForm" type="submit" >Add Subject</button>
-    </form>
-
-    <div id="subjectsContainer">
+    <div id="applicationsContainer">
         <div id="studiedSubjects">
-                
+            <form class="appButtons">
+                <a target="_blank" href="http://127.0.0.1:5500/study/study.html">
+                    <button type="button"  value="Study"><img src="https://www.how-to-study.com/images/study-skills-assessments.jpg"  height="150px" width="150px"   alt=""></button>
+                </a>
+            </form>
         </div>
     </div>
     
-
-    
-    <script src="test.js"></script>
+    <script src="sandbox.js"></script>
     
 </body>
 </html>

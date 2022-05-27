@@ -3,12 +3,12 @@ body {
     padding: 0;
     background-color: rgb(216, 243, 247);
     color: rgb(7, 4, 4);
-    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Mukta', sans-serif;
 }
 
 .defaultHeader {
     background-color: rgb(85, 187, 207);
-    font: bold 20px 'IBM Plex Sans Arabic';
+    font:  20px 'Mukta';
     text-align: center;
     line-height: 2.5em;
 
@@ -49,6 +49,8 @@ input[name=inputSubject] {
     width: 158px;
     height: 20px;
     text-align: center;
+    font: normal 13px 'IBM Plex Sans Arabic'; 
+    padding: 1px 2px;
 
     border-radius: 5px;
 
