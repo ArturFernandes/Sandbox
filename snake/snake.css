@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 243, 247);
+    color: rgb(7, 4, 4);
+    font-family: 'Mukta', sans-serif;
+}
+
+.defaultHeader {
+    background-color: rgb(85, 187, 207);
+    font:  20px 'Mukta';
+    text-align: center;
+    line-height: 2.5em;
+
+    height: 50px;
+}
+
+#chooseApp{
+    font-size: 30px;
+    text-align: center;
+}
+
+#generalText {
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+}
